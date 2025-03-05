@@ -165,6 +165,30 @@ hi. public repo for my configs
     "command": "workbench.action.nextEditor"
   },
 
+  // This does not work yet
+  // {
+  //   "key": "ctrl+shift+h",
+  //   // "command": "workbench.action.moveActiveEditorGroupLeft"
+  //   "command": "workbench.action.previousEditor"
+  // },
+  // {
+  //   "key": "ctrl+shift+l",
+  //   "command": "workbench.action.moveActiveEditorGroupRight"
+  // },
+
+  {
+    "key": "escape",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.focusActiveEditorGroup",
+        "workbench.action.closeSidebar"
+      ]
+    },
+
+    "when": "!editorTextFocus"
+  },
+
   {
     "key": "ctrl+k ctrl+i",
     "command": "-editor.action.showHover",
@@ -208,6 +232,21 @@ hi. public repo for my configs
     "key": "enter",
     "command": "-renameFile",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "alt+h",
+    "command": "-gitlens.showQuickFileHistory",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
+  },
+  {
+    "key": "alt+h",
+    "command": "-testing.toggleTestingPeekHistory",
+    "when": "testing.isPeekVisible"
+  },
+  {
+    "key": "alt+h",
+    "command": "-editor.action.accessibilityHelpOpenHelpLink",
+    "when": "accessibilityHelpIsShown"
   }
 ]
 ```
