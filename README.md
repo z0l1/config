@@ -19,6 +19,8 @@ hi. public repo for my configs
   "editor.fontSize": 18,
   "window.zoomLevel": 1,
 
+  "editor.cursorSurroundingLines": 9999,
+
   // VIM
   "vim.leader": " ",
   "vim.vimrc.enable": true,
