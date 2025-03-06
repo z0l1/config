@@ -1,6 +1,6 @@
 hi. public repo for my configs
 
-Table of Contents
+## Table of Contents
 * [Editors](#editors)
   * [VS Code](#vs-code)
   * [Vim](#vim)
@@ -8,7 +8,7 @@ Table of Contents
  ---
 
 
-### Editors
+## Editors
 
 ### VS Code
 
