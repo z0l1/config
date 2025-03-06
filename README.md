@@ -1,12 +1,15 @@
 hi. public repo for my configs
 
 Table of Contents
-#### Editors
+* [Editors](#editors)
   * [VS Code](#vs-code)
   * [Vim](#vim)
  
  ---
- 
+
+
+### Editors
+
 ### VS Code
 
 - [settings.json](vscode/settings.json)
