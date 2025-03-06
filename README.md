@@ -1,7 +1,13 @@
 hi. public repo for my configs
 
-
-### VSCode
+Table of Contents
+* [Editors]
+  * [VS Code](#vs-code)
+  * [Vim](#vim)
+ 
+ ---
+ 
+### VS Code
 
 - [settings.json](vscode/settings.json)
   - `Preferences: Open User Settings`
