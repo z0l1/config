@@ -1,7 +1,7 @@
 hi. public repo for my configs
 
 Table of Contents
-* Editors
+#### Editors
   * [VS Code](#vs-code)
   * [Vim](#vim)
  
