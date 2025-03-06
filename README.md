@@ -1,4 +1,4 @@
-## hi. public repo for my configs
+hi. public repo for my configs
 
 
 ### VSCode
