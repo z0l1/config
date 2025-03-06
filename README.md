@@ -1,21 +1,14 @@
-hi. public repo for my configs
+## hi. public repo for my configs
 
 
 ### VSCode
 
-- Test
-  - Test2
-- Test3
-  - Test4
+- [settings.json](vscode/settings.json)
+  - `Preferences: Open User Settings`
+- [keybindings.json](vscode/keybindings.json)
+  - `Preferences: Open Keyboard Shortcuts`
 
-#### settings.json (Preferences: Open User Settings)
-[settings.json](vscode/settings.json)
-
-#### keybindings.json (Preferences: Open Keyboard Shortcuts)
-[keybindings.json](vscode/keybindings.json)
-
-### Vim stuff
-
-#### .vimrc
-[.vimrc](vim/.vimrc)
-
+### Vim
+- [.vimrc](vim/.vimrc)
+  - `~/.vimrc`
+  
