@@ -57,28 +57,52 @@
     "command": "workbench.action.nextEditor"
   },
 
-  // This does not work yet
-  // {
-  //   "key": "ctrl+shift+h",
-  //   // "command": "workbench.action.moveActiveEditorGroupLeft"
-  //   "command": "workbench.action.previousEditor"
-  // },
-  // {
-  //   "key": "ctrl+shift+l",
-  //   "command": "workbench.action.moveActiveEditorGroupRight"
-  // },
+  {
+    "key": "f2",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "f3",
+    "command": "workbench.action.showAllSymbols"
+  },
 
   {
-    "key": "escape",
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.moveEditorRightInGroup"
+  },
+
+  // shitty solution but stays for now
+  {
+    "key": "shift+escape",
     "command": "runCommands",
     "args": {
       "commands": [
         "workbench.action.focusActiveEditorGroup",
-        "workbench.action.closeSidebar"
+        "workbench.action.closeSidebar",
+        "closeReferenceSearch",
+        "editor.action.inlineSuggest.hide",
+        "cancelSelection",
+        "removeSecondaryCursors",
+        "closeBreakpointWidget",
+        "workbench.action.hideComment",
+        "closeFindWidget",
+        "leaveSnippet",
+        "closeMarkersNavigation",
+        "closeQuickDiff",
+        "closeParameterHints",
+        "hideSuggestWidget",
+        "cancelLinkedEditingInput",
+        "cancelRenameInput",
+        "workbench.action.closeQuickOpen",
+        "workbench.action.terminal.hideFind",
+        "closeReferenceSearch",
+        "hideCodeActionWidget"
       ]
-    },
-
-    "when": "!editorTextFocus"
+    }
   },
 
   {
