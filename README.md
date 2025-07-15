@@ -25,8 +25,13 @@ hi. public repo for my configs
 ## Scripts
 
 - [setnodepath.sh](sh/setnodepath.sh)
+
+  
 A noob bash script for switching between node versions without Admin Rights / Privileges on your PC (with git bash installed).
 
 Modifying system PATH is not an option but modifying user PATH is.
 
-I made an alias in my `~/.bashrc` so it is simpler to use.
+I made an alias in my `~/.bashrc` so it is simpler to use:
+```
+alias setnode "source /path/to/script.sh"
+```
