@@ -4,6 +4,7 @@ hi. public repo for my configs
 * [Editors](#editors)
   * [VS Code](#vs-code)
   * [Vim](#vim)
+* [Scripts](#scripts)
  
  ---
 
@@ -21,3 +22,11 @@ hi. public repo for my configs
 - [.vimrc](vim/.vimrc)
   - `~/.vimrc`
   
+## Scripts
+
+- [setnodepath.sh](sh/setnodepath.sh)
+A noob bash script for switching between node versions without Admin Rights / Privileges on your PC (with git bash installed).
+
+Modifying system PATH is not an option but modifying user PATH is.
+
+I made an alias in my `~/.bashrc` so it is simpler to use.
