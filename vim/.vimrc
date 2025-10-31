@@ -1,7 +1,23 @@
 " in vimscript it is 'mapleader' this works in vscode also
 " 'leader' also worked in vscode and in neovim but not in vi/vim
+" this works in vi/vim :)
+nnoremap <SPACE> <Nop>
 let mapleader = " "
 
+" Enable incremental search (highlight as you type)
+set incsearch
+ 
+" Start with global highlighting OFF
+set nohlsearch
+
+" smartcase is by default case-insensitive search unless you use casing in search
+set smartcase
+set relativenumber
+ 
+" Map search keys to TURN ON highlighting when you start a search
+" basic vi does not highlight all results during incremental search
+nnoremap / :set hlsearch<CR>/
+nnoremap ? :set hlsearch<CR>?
 
 " Remap <leader>pv to execute :Ex (Explore)
 nnoremap <leader>pv :Ex<CR>
