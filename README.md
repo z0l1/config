@@ -4,26 +4,28 @@ hi. public repo for my configs
 * [Editors](#editors)
   * [VS Code](#vs-code)
   * [Vim](#vim)
-* [Scripts](#scripts)
+* [Bash](#scripts)
  
  ---
 
 
 ## Editors
 
-### VS Code
+#### VS Code
 
 - [settings.json](vscode/settings.json)
   - `Preferences: Open User Settings`
 - [keybindings.json](vscode/keybindings.json)
   - `Preferences: Open Keyboard Shortcuts`
 
-### Vim
+#### Vim
+
 - [.vimrc](vim/.vimrc)
   - `~/.vimrc`
   
-## Scripts
-
+## Bash
+- [.bashrc](sh/.bashrc)
+  - `~/.bashrc`
 - [setnodepath.sh](sh/setnodepath.sh)
 
   
