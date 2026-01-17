@@ -8,7 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	"extend_comment_on_newline": false,
-	"preferred_line_length": 80,
+	"preferred_line_length": 90,
 	"indent_guides": {
 		"line_width": 1,
 	},
