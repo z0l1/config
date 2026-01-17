@@ -33,6 +33,7 @@
 			"shift shift": "file_finder::Toggle",
 			"space b": "workspace::CloseAllDocks",
 			"space p v": "project_panel::ToggleFocus",
+			"space p g": "git_panel::ToggleFocus",
 		},
 	},
 
