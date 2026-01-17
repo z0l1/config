@@ -14,7 +14,7 @@ hi. public repo for my configs
 #### Zed
 - [settings.json](zed/settings.json)
   - `zed: open settings file`
-- [keybindings.json](zed/keymap.json)
+- [keymap.json](zed/keymap.json)
   - `zed: open keymap file`
 
 #### VS Code
