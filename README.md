@@ -11,6 +11,12 @@ hi. public repo for my configs
 
 ## Editors
 
+#### Zed
+- [settings.json](zed/settings.json)
+  - `zed: open settings file`
+- [keybindings.json](zed/keymap.json)
+  - `zed: open keymap file`
+
 #### VS Code
 
 - [settings.json](vscode/settings.json)
@@ -22,6 +28,9 @@ hi. public repo for my configs
 
 - [.vimrc](vim/.vimrc)
   - `~/.vimrc`
+ 
+---
+
   
 ## Bash
 - [.bashrc](sh/.bashrc)
