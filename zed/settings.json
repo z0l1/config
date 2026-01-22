@@ -8,12 +8,17 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	"extend_comment_on_newline": false,
-	"preferred_line_length": 90,
-	"indent_guides": {
-		"line_width": 1,
-	},
-	"soft_wrap": "preferred_line_length",
+	// "preferred_line_length": 90,
+	// "indent_guides": {
+	// 	"line_width": 1
+	// },
+	
+	"wrap_guides": [120],
+	"soft_wrap": "editor_width",
+
 	"hard_tabs": true,
+	"tab_size": 4,
+
 	"gutter": {
 		"min_line_number_digits": 4,
 	},
@@ -24,6 +29,9 @@
 	"edit_predictions": {
 		"enabled_in_text_threads": false,
 	},
+
+	"agent_buffer_font_size": null,
+
 	"agent": {
 		"expand_terminal_card": false,
 		"expand_edit_card": false,
@@ -36,19 +44,24 @@
 	"toolbar": {
 		"agent_review": false,
 	},
+	"agent_servers": null,
+
 	"ui_font_family": "GoMono Nerd Font Mono",
 	"buffer_font_weight": 400.0,
 	"buffer_font_family": "GoMono Nerd Font Mono",
+
 	"telemetry": {
 		"diagnostics": false,
 		"metrics": false,
 	},
-	"icon_theme": "Zed (Default)",
+
+	"icon_theme": "Catppuccin Frappé",
+
 	"vim_mode": true,
 	"ui_font_size": 16.0,
 	"buffer_font_size": 18.0,
 	"theme": {
-		"mode": "light",
+		"mode": "dark",
 		"light": "Kanso Pearl",
 		"dark": "Kanso Zen",
 	},
