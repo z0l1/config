@@ -7,14 +7,25 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"project_panel": {
+		"dock": "left",
+	},
+	"outline_panel": {
+		"dock": "left",
+	},
+	"collaboration_panel": {
+		"dock": "left",
+	},
 	"extend_comment_on_newline": false,
 	// "preferred_line_length": 90,
 	// "indent_guides": {
 	// 	"line_width": 1
 	// },
-	
+
 	"wrap_guides": [120],
 	"soft_wrap": "editor_width",
+	"format_on_save": "on",
+	"formatter": "prettier",
 
 	"hard_tabs": true,
 	"tab_size": 4,
@@ -24,6 +35,7 @@
 	},
 	"relative_line_numbers": "enabled",
 	"git_panel": {
+		"dock": "left",
 		"tree_view": true,
 	},
 	"edit_predictions": {
@@ -33,6 +45,7 @@
 	"agent_buffer_font_size": null,
 
 	"agent": {
+		"dock": "right",
 		"expand_terminal_card": false,
 		"expand_edit_card": false,
 		"enable_feedback": false,
@@ -55,7 +68,11 @@
 		"metrics": false,
 	},
 
-	"icon_theme": "Catppuccin Frappé",
+	"icon_theme": {
+		"mode": "light",
+		"light": "Catppuccin Frappé",
+		"dark": "Catppuccin Frappé",
+	},
 
 	"vim_mode": true,
 	"ui_font_size": 16.0,
@@ -63,6 +80,24 @@
 	"theme": {
 		"mode": "dark",
 		"light": "Kanso Pearl",
-		"dark": "Kanso Zen",
+		"dark": "Rosé Pine",
+	},
+
+	"disable_ai": true,
+
+	"languages": {
+		"PHP": {
+			"language_servers": ["intelephense", "!phpactor"],
+		},
+
+		"Go": {
+			"formatter": {
+				"external": {
+					"command": "gofmt",
+					"arguments": [],
+				},
+			},
+			"format_on_save": "on",
+		},
 	},
 }
