@@ -17,36 +17,22 @@
 	"collaboration_panel": {
 		"dock": "left"
 	},
-	"disable_ai": true,
 
-	"lsp": {
-		"vtsls": {
-			"settings": {
-				"typescript": {
-					"updateImportsOnFileMove": {
-						"enabled": "always",
-					},
-				},
-				"javascript": {
-					"updateImportsOnFileMove": {
-						"enabled": "always",
-					},
-				},
-			},
-			"enable_lsp_tasks": true,
-		},
-	},
 	"terminal": {
 		"shell": {
 			"program": "C:/Programs/Git/bin/sh.exe",
 		},
 	},
 	"extend_comment_on_newline": false,
+
+	
 	"preferred_line_length": 90,
 	"indent_guides": {
 		"line_width": 1
 	},
 	"wrap_guides": [120],
+
+	
 	"soft_wrap": "editor_width",
 
 	"cursor_shape": "bar",
@@ -67,31 +53,12 @@
 		"enabled_in_text_threads": false,
 	},
 
-	"agent_buffer_font_size": null,
 
-	"agent": {
-		"dock": "right",
-		"expand_terminal_card": false,
-		"expand_edit_card": false,
-		"enable_feedback": false,
-		"single_file_review": false,
-		"button": false,
-		"favorite_models": [],
-		"model_parameters": [],
-	},
-	"toolbar": {
-		"agent_review": false,
-	},
-	"agent_servers": null,
+
 
 	"ui_font_family": "GoMono Nerd Font Mono",
 	"buffer_font_weight": 400.0,
 	"buffer_font_family": "GoMono Nerd Font Mono",
-
-	"telemetry": {
-		"diagnostics": false,
-		"metrics": false,
-	},
 
 	"icon_theme": {
 		"mode": "dark",
@@ -106,5 +73,67 @@
 		"mode": "dark",
 		"light": "Rosé Pine Dawn",
 		"dark": "Rosé Pine",
+	},
+
+	"format_on_save": "on",
+	"formatter": "prettier",
+
+	"languages": {
+		"PHP": {
+			"language_servers": ["intelephense", "!phpactor"],
+		},
+
+		"Go": {
+			"formatter": {
+				"external": {
+					"command": "gofmt",
+					"arguments": [],
+				},
+			},
+			"format_on_save": "on",
+		},
+	},
+	
+	"lsp": {
+		"vtsls": {
+			"settings": {
+				"typescript": {
+					"updateImportsOnFileMove": {
+						"enabled": "always",
+					},
+				},
+				"javascript": {
+					"updateImportsOnFileMove": {
+						"enabled": "always",
+					},
+				},
+			},
+			"enable_lsp_tasks": true,
+		},
+	},
+
+
+
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false,
+	},
+	
+	"disable_ai": true,
+	"agent_servers": null,
+	"toolbar": {
+		"agent_review": false,
+	},
+
+	"agent_buffer_font_size": null,
+	"agent": {
+		"dock": "right",
+		"expand_terminal_card": false,
+		"expand_edit_card": false,
+		"enable_feedback": false,
+		"single_file_review": false,
+		"button": false,
+		"favorite_models": [],
+		"model_parameters": [],
 	},
 }
