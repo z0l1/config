@@ -7,31 +7,56 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"cli_default_open_behavior": "existing_window",
 	"project_panel": {
-		"dock": "left",
+		"dock": "left"
 	},
 	"outline_panel": {
-		"dock": "left",
+		"dock": "left"
 	},
 	"collaboration_panel": {
-		"dock": "left",
+		"dock": "left"
+	},
+	"disable_ai": true,
+
+	"lsp": {
+		"vtsls": {
+			"settings": {
+				"typescript": {
+					"updateImportsOnFileMove": {
+						"enabled": "always",
+					},
+				},
+				"javascript": {
+					"updateImportsOnFileMove": {
+						"enabled": "always",
+					},
+				},
+			},
+			"enable_lsp_tasks": true,
+		},
+	},
+	"terminal": {
+		"shell": {
+			"program": "C:/Programs/Git/bin/sh.exe",
+		},
 	},
 	"extend_comment_on_newline": false,
-	// "preferred_line_length": 90,
-	// "indent_guides": {
-	// 	"line_width": 1
-	// },
-
+	"preferred_line_length": 90,
+	"indent_guides": {
+		"line_width": 1
+	},
 	"wrap_guides": [120],
 	"soft_wrap": "editor_width",
-	"format_on_save": "on",
-	"formatter": "prettier",
+
+	"cursor_shape": "bar",
+	"cursor_blink": false,
 
 	"hard_tabs": true,
 	"tab_size": 4,
 
 	"gutter": {
-		"min_line_number_digits": 4,
+		"min_line_number_digits": 3,
 	},
 	"relative_line_numbers": "enabled",
 	"git_panel": {
@@ -69,9 +94,9 @@
 	},
 
 	"icon_theme": {
-		"mode": "light",
+		"mode": "dark",
 		"light": "Catppuccin Frappé",
-		"dark": "Catppuccin Frappé",
+		"dark": "Catppuccin Frappé"
 	},
 
 	"vim_mode": true,
@@ -79,25 +104,7 @@
 	"buffer_font_size": 18.0,
 	"theme": {
 		"mode": "dark",
-		"light": "Kanso Pearl",
+		"light": "Rosé Pine Dawn",
 		"dark": "Rosé Pine",
-	},
-
-	"disable_ai": true,
-
-	"languages": {
-		"PHP": {
-			"language_servers": ["intelephense", "!phpactor"],
-		},
-
-		"Go": {
-			"formatter": {
-				"external": {
-					"command": "gofmt",
-					"arguments": [],
-				},
-			},
-			"format_on_save": "on",
-		},
 	},
 }
